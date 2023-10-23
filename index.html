@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO LIST</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+            <div class="add-container">
+                <input type="text" name="todo-list">
+                <button class="add-btn">ADD</button>
+            </div>
+      
+            <div class="categories">
+                <div id="all" class="category-button">ALL</div>
+                <div id="active" class="category-button">ACTIVE</div>
+                <div id="complete" class="category-button">COMPLETE</div>
+            </div>
+        <div class="item-container">
+
+            <!-- <div id="item-1" class="list">
+                <div class="checkbox">
+                    <input id=myCheckbox type="checkbox" name="list" value="yes">
+                    <label for="myCheckbox">This is the description</label>
+                </div>
+                <div class="icon"><i class="fa-solid fa-xmark"></i></div>
+            </div> -->
+           
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!-- editIconDiv.addEventListener('click', () => {
+    const newText = prompt("Edit the item:", text);
+    if (newText !== null) {
+        // Update the text in the DOM
+        label.textContent = newText;
+
+        // Update the text in the array
+        const itemIndex = todoList.findIndex(item => item.id === id);
+        if (itemIndex !== -1) {
+            todoList[itemIndex].text = newText;
+        }
+    }
+    console.log(todoList[itemIndex]);
+}); -->
